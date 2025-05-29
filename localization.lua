@@ -1,0 +1,1 @@
+-- Reserviert für zukünftige Übersetzungen

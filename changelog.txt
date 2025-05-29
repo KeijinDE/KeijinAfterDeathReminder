@@ -1,0 +1,9 @@
+# Changelog – KeijinAfterDeathReminder
+
+## v1.0.0 – First Stable Release (29.05.2025)
+- Reminder wird nur noch bei Wiederbelebung ausgelöst (`PLAYER_UNGHOST`)
+- Eigenes Delay- und Reminder-System ohne C_Timer
+- Chatnachricht 3x im Abstand von 2 Sekunden
+- Debug-Befehl: /kadr debug
+- Toggle-Befehl: /kadr toggle
+- Vanilla-kompatibler LUA 5.1 Code
