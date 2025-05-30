@@ -1,5 +1,38 @@
 # Changelog – KeijinAfterDeathReminder
 
+---
+
+### v2.0.2b – 30.05.2025
+
+**EN**  
+- Fixed: Reminder delay was nil if config wasn't loaded  
+- Fixed: TriggerReminder() used before Delay() declaration  
+- Fixed: `delta` removed from OnUpdate for Vanilla compatibility  
+- Added: `/kadr simulate` command to test reminder manually  
+- Improved: All config values now safely fallback if missing
+
+**DE**  
+- Fehler behoben: reminderDelay war nil bei frischer Konfiguration  
+- Fehler behoben: TriggerReminder() wurde vor Delay() aufgerufen  
+- delta aus OnUpdate entfernt (Classic-kompatibel)  
+- Neu: `/kadr simulate` zum Testen ohne Sterben  
+- Besser: Alle Konfigwerte sind mit Fallback abgesichert
+
+---
+
+### v2.0.2 – 29.05.2025
+
+**EN**  
+- Added settings frame with position and display toggles  
+- Reminder can be displayed as chat and/or frame  
+- First functional release
+
+**DE**  
+- Neues Einstellungsfenster mit Positionswahl  
+- Hinweis erscheint nun im Chat und/oder als UI-Frame  
+- Erste funktionale Version
+
+
 ## v1.0.0 – First Stable Release (29.05.2025)
 - Reminder wird nur noch bei Wiederbelebung ausgelöst (`PLAYER_UNGHOST`)
 - Eigenes Delay- und Reminder-System ohne C_Timer
