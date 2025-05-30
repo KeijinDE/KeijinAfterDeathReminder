@@ -1,48 +1,27 @@
 # KeijinAfterDeathReminder (KADR)
 
-🛡️ Version: v1.0.0  
-📅 Release: 29.05.2025  
-✍️ Autor: Keijin
+**EN**  
+KeijinAfterDeathReminder is a lightweight addon for Turtle WoW that reminds players after resurrection to reapply their aura, blessing, and tracking abilities.  
+You can configure whether this reminder appears in chat, as a visual frame, or both.
 
-Ein minimalistisches Add-on für [Turtle WoW (1.12)](https://turtle-wow.org), das dich nach dem Wiederbeleben automatisch daran erinnert, wichtige Buffs wie Aura, Blessing oder Tracking wieder zu aktivieren.
+**DE**  
+KeijinAfterDeathReminder ist ein leichtgewichtiges Addon für Turtle WoW, das Spieler nach der Wiederbelebung daran erinnert, Aura, Segen und Verfolgung erneut zu aktivieren.  
+Es kann so eingestellt werden, dass der Hinweis im Chat, als visuelles Fenster oder beides erscheint.
 
----
+## Features / Funktionen
 
-## 🔧 Funktionen
-
-- Automatische Erinnerung nach Wiederbelebung (`PLAYER_UNGHOST`)
-- Dreifache Chatnachricht im Abstand von 2 Sekunden
-- Debug-Modus mit `/kadr debug`
-- Aktivierbar/Deaktivierbar über `/kadr toggle`
-- Stabil, fehlerfrei und LUA 5.1-kompatibel (Turtle Classic)
-
----
-
-## 📦 Installation
-
-1. ZIP-Datei herunterladen
-2. Ordner `KeijinAfterDeathReminder` in dein `Interface/AddOns/` Verzeichnis legen
-3. Spiel starten oder `/reload` eingeben
+- ⚠ Reminder after death: chat message, frame or both  
+- 🎯 Custom position via settings  
+- 🧪 Manual test mode (`/kadr simulate`)  
+- ✅ Classic-compatible (WoW 1.12 / Turtle WoW)  
+- 🔧 Slash commands: `/kadr config`, `/kadr toggle`, `/kadr simulate`, `/kadr debug`
 
 ---
 
-## 📄 Befehle
+## Installation
 
-- `/kadr debug` → Testet die Erinnerung manuell
-- `/kadr toggle` → Aktiviert oder deaktiviert das Addon
+**EN:**  
+Unzip and place the folder `KeijinAfterDeathReminder` in your `Interface/AddOns/` directory.
 
----
-
-## 🔜 Geplante Features (ab v2.0)
-
-- Sichtbarer Hinweis-Frame (alternativ zur Chatnachricht)
-- Konfigurierbare Settings-Seite (Position, Dauer, Anzeigeoptionen)
-- Optionale Sounds
-- Klassenbasierte Texte
-- Lokalisierung (sobald Turtle-WoW DE-Client unterstützt)
-
----
-
-## 📄 Lizenz
-
-Dieses Projekt steht unter der [MIT License](LICENSE).
+**DE:**  
+Entpacke das Addon und verschiebe den Ordner `KeijinAfterDeathReminder` in dein Verzeichnis `Interface/AddOns/`.
