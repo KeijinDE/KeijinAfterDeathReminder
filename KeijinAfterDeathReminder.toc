@@ -1,10 +1,12 @@
 ## Interface: 11200
 ## Title: KeijinAfterDeathReminder
-## Notes: Chat-Erinnerung nach Tod zur Buff-Reaktivierung
+## Notes: Reminder after resurrection to reapply buffs
 ## Author: Keijin
-## Version: v1.0.0
+## Version: v2.0.2b
 ## SavedVariables: KADR_Config
 core.lua
 config.lua
 commands.lua
+ui_frame.lua
+settings_frame.lua
 localization.lua

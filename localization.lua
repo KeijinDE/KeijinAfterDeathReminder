@@ -1,1 +1,1 @@
--- Reserviert für zukünftige Übersetzungen
+-- reserved for future use
