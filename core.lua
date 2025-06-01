@@ -45,4 +45,4 @@ frame:SetScript("OnEvent", function()
   end)
 end)
 
-DEFAULT_CHAT_FRAME:AddMessage("|cff88ff88[KeijinAddons]|r |cffffff88KeijinAfterDeathReminder|r v2.0.3b – Use /kadr")
+DEFAULT_CHAT_FRAME:AddMessage("|cff88ff88[KeijinAddons]|r |cffffff88KeijinAfterDeathReminder|r v2.0.3b – Use /kadr") 
