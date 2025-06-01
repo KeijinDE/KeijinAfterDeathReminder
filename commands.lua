@@ -38,3 +38,4 @@ SlashCmdList["KADR"] = function(msg)
     DEFAULT_CHAT_FRAME:AddMessage("KADR-Befehle: /kadr toggle | /kadr debug | /kadr config | /kadr simulate")
   end
 end
+ 
