@@ -14,3 +14,4 @@ text:SetPoint("CENTER", frame, "CENTER", 0, 0)
 text:SetText("⚠ Aura, Blessing, Tracking!")
 
 frame:Hide()
+ 
