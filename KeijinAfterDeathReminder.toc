@@ -1,5 +1,5 @@
 ## Interface: 11200
-## Title: KeijinAfterDeathReminder
+## Title: |cff88ff88Keijin|rAfterDeathReminder
 ## Notes: Reminder after resurrection to reapply buffs
 ## Author: Keijin
 ## Version: v2.0.4
